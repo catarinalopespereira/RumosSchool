@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. DataAccessLayer", "1. DataAccessLayer", "{B176FC3E-BDA5-4339-AE95-4E4477C71552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. BusinessLogicLayer", "2. BusinessLogicLayer", "{9D256CCB-DAF1-40AD-92C0-B43EA9533AA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. PresentationLayer", "3. PresentationLayer", "{6BF7B40F-1B33-4D5D-8003-0810DCA048EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosSchool.ConsoleApp", "RumosSchool.ConsoleApp\RumosSchool.ConsoleApp.csproj", "{7A3E3E4F-3737-432B-8F3B-AAB0F22F37F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosSchool.WinForms", "RumosSchool.WinForms\RumosSchool.WinForms.csproj", "{14B927B4-F8E4-407B-B3F3-F75614A87713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosSchool.Data", "RumosSchool.Data\RumosSchool.Data.csproj", "{9EC7F11E-AF1B-405D-8B09-40EC9660CA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosSchool.Model", "RumosSchool.Model\RumosSchool.Model.csproj", "{7943134A-0C02-4F17-9447-4AE979B17DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumosSchool.Services", "RumosSchool.Services\RumosSchool.Services.csproj", "{AE93DD02-7EA7-4C76-90DF-9F02544C2813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A3E3E4F-3737-432B-8F3B-AAB0F22F37F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3E3E4F-3737-432B-8F3B-AAB0F22F37F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3E3E4F-3737-432B-8F3B-AAB0F22F37F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3E3E4F-3737-432B-8F3B-AAB0F22F37F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B927B4-F8E4-407B-B3F3-F75614A87713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B927B4-F8E4-407B-B3F3-F75614A87713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B927B4-F8E4-407B-B3F3-F75614A87713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B927B4-F8E4-407B-B3F3-F75614A87713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC7F11E-AF1B-405D-8B09-40EC9660CA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC7F11E-AF1B-405D-8B09-40EC9660CA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC7F11E-AF1B-405D-8B09-40EC9660CA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC7F11E-AF1B-405D-8B09-40EC9660CA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7943134A-0C02-4F17-9447-4AE979B17DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7943134A-0C02-4F17-9447-4AE979B17DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7943134A-0C02-4F17-9447-4AE979B17DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7943134A-0C02-4F17-9447-4AE979B17DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE93DD02-7EA7-4C76-90DF-9F02544C2813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE93DD02-7EA7-4C76-90DF-9F02544C2813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE93DD02-7EA7-4C76-90DF-9F02544C2813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE93DD02-7EA7-4C76-90DF-9F02544C2813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A3E3E4F-3737-432B-8F3B-AAB0F22F37F4} = {6BF7B40F-1B33-4D5D-8003-0810DCA048EC}
+		{14B927B4-F8E4-407B-B3F3-F75614A87713} = {6BF7B40F-1B33-4D5D-8003-0810DCA048EC}
+		{9EC7F11E-AF1B-405D-8B09-40EC9660CA2A} = {B176FC3E-BDA5-4339-AE95-4E4477C71552}
+		{7943134A-0C02-4F17-9447-4AE979B17DA6} = {9D256CCB-DAF1-40AD-92C0-B43EA9533AA9}
+		{AE93DD02-7EA7-4C76-90DF-9F02544C2813} = {9D256CCB-DAF1-40AD-92C0-B43EA9533AA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B804A436-A028-4280-B247-FCCD741E2FCA}
+	EndGlobalSection
+EndGlobal
